@@ -1,0 +1,23 @@
+{
+  "name": "meteora_api",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+ "dependencies": {
+  "@meteora-ag/dynamic-amm-sdk": "latest",
+  "@meteora-ag/dlmm": "latest",
+  "@solana/spl-token": "latest",
+  "@solana/web3.js": "latest",
+  "@coral-xyz/anchor": "latest",
+  "bn.js": "latest",
+  "express": "latest"
+},
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/bn.js": "latest",
+    "typescript": "latest"
+  }
+}
